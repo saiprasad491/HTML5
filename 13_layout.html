@@ -1,0 +1,144 @@
+<!-- 
+    layout
+    ------
+    1) header
+    2) nav
+    3) aside
+    4) footer
+    5) section
+    6) article
+    7) figure
+    8) figcaption
+    9) audio
+    10) video
+    11) details
+    12) summary
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website Layout</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .main-header {
+        background: linear-gradient(45deg, blueviolet, deeppink);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 0 5px 10px black;
+        padding: 10px;
+      }
+      section {
+        background: linear-gradient(45deg, black, darkred);
+        color: greenyellow;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0, 0, 10px, black;
+      }
+      section article {
+        background: linear-gradient(45deg, orangered, blue);
+        color: gold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0, 0, 10px, black;
+      }
+      .main-footer {
+        background: linear-gradient(45deg, blueviolet, deeppink);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 0 5px 10px black;
+        padding: 10px;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .sidebar{
+        background: linear-gradient(45deg,blueviolet,rgb(255, 137, 47),deeppink);
+        width: 150px;
+        padding:10px;
+
+      }
+      aside a{
+        padding-bottom: 10%;
+      }
+      main{
+        display: inline-flex;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Company Name</h1>
+    </header>
+    <!-- main content -->
+    <main>
+    <!-- aside tag -->
+    <aside class="sidebar">
+        <a href="">Class 1</a>
+        <a href="">Class 2</a>
+        <a href="">Class 3</a>
+        <a href="">Class 4</a>
+        <a href="">Class 5</a>
+    </aside>
+    
+    <section>
+      <h1>Movies</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+        dolorum commodi. Similique, soluta quae! Consequuntur cupiditate
+        recusandae temporibus dolorum labore, sapiente animi et libero soluta,
+        ratione tempora adipisci id sed eaque aliquam? Itaque doloribus odit et
+        quod aliquam libero dolores quasi laborum ipsum dolor. Rem eaque
+        temporibus voluptatibus ad placeat?
+      </p>
+      <article>
+        <h2>Hollywood Movies</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias,
+          nesciunt. Praesentium est tempora harum, totam provident blanditiis
+          cumque repudiandae saepe fuga doloremque. Necessitatibus enim pariatur
+          repudiandae natus omnis. Facere, deserunt?
+        </p>
+      </article>
+      <article>
+        <h2>Bollywood Movies</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias,
+          nesciunt. Praesentium est tempora harum, totam provident blanditiis
+          cumque repudiandae saepe fuga doloremque. Necessitatibus enim pariatur
+          repudiandae natus omnis. Facere, deserunt?
+        </p>
+      </article>
+      <article>
+        <h2>Tollywood Movies</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias,
+          nesciunt. Praesentium est tempora harum, totam provident blanditiis
+          cumque repudiandae saepe fuga doloremque. Necessitatibus enim pariatur
+          repudiandae natus omnis. Facere, deserunt?
+        </p>
+      </article>
+    </section>
+</main>
+    <!-- Footer -->
+    <footer class="main-footer">
+      <h3>Copyright &copy; 2025, Innovative coders</h3>
+      <p>All rights reserved</p>
+      <p>
+        Developed and maintained by
+        <a href="https://github.com/saiprasad491" target="_blank"
+          >Saiprasad Sahoo</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
